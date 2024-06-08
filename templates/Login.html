@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finley</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="iframeLogin">
+        <div id="intro_container">
+            <img id="Finley" src="{{ url_for('static', filename='img/Finley2.png') }}" alt="Finley Image">
+            <button id="quit" class="quit" onclick="quitFunction()">&times;</button>
+            <label id="finley_speech">Veuillez remplir ce questionnaire pour accéder à la discussion.</label>
+        </div>
+        <form method="POST" class="login" action="/Conn_Finley" id="login">
+            <input type="text" id="nom" name="nom" class="nom" placeholder="Nom" required autocomplete="off">
+            <input type="text" id="prénom" name="prénom" class="prénom" placeholder="Prénom" required autocomplete="off">
+            <input type="email" id="email" name="email" class="email" placeholder="E-mail" required autocomplete="off">
+            <div id="demande-container" class="demande-container">
+                <textarea id="demande" name="demande" class="demande" placeholder="Votre demande" required></textarea>
+                <button type="submit" id="submit" class="submit-button">
+                    <img src="../static/img/btnPlay.png" alt="bouton play" width="45">
+                </button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        function quitFunction() {
+            window.parent.postMessage('closeIframe', '*');
+        }
+
+    </script>
+</body>
+</html>

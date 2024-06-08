@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js" integrity="sha512-42HZ7Q0bPbfJ9XeHsCp/Oy6m5peN2a9gXL6gtHzl7MUyG1tV9vGRoQpg78bc2oNh9lWxTqtPYX1S78XyOmRcWQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        socket.on('message', function(msg) {
+            var p = document.createElement('p');
+            p.innerHTML = msg;
+            document.getElementById('chat').appendChild(p);
+        });
+
+        function sendMessage() {
+            var messageInput = document.getElementById('message');
+            var message = messageInput.value;
+            socket.emit('message', message);
+            messageInput.value = '';
+        }
+
+        function processText() {
+            var textInput = document.getElementById('text-input').value;
+            
+            // Send text data to the server for processing
+            fetch('/process_text', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'text=' + encodeURIComponent(textInput)
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display the processed text (entities) to the user
+                var entitiesList = document.getElementById('entities-list');
+                entitiesList.innerHTML = ''; // Clear previous entities
+                
+                data.forEach(function(entity) {
+                    var listItem = document.createElement('li');
+                    listItem.textContent = entity.text + ' (' + entity.label + ')';
+                    entitiesList.appendChild(listItem);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="chat"></div>
+    <input type="text" id="message" placeholder="Type your message">
+    <button onclick="sendMessage()">Send</button>
+
+    <hr>
+
+    <input type="text" id="text-input" placeholder="Enter text to process">
+    <button onclick="processText()">Process Text</button>
+    
+    <ul id="entities-list"></ul>
+</body>
+</html>

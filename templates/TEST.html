@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch Finley Window</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <button id="launchButton">Launch Finley</button>
+    <div id="finleyWindow" class="hidden">
+        <iframe src="" id="finleyFrame"></iframe>
+    </div>
+
+    <script>
+        document.getElementById('launchButton').addEventListener('click', function() {
+        const finleyWindow = document.getElementById('finleyWindow');
+        const finleyFrame = document.getElementById('finleyFrame');
+
+        // Set the iframe src to the target URL
+        finleyFrame.src = '/launch_Finley';
+
+        // Show the finley window
+        finleyWindow.style.display = 'block';
+    });
+
+    window.addEventListener('message', function(event) {
+        if (event.data === 'closeIframe') {
+            const finleyWindow = document.getElementById('finleyWindow');
+            
+            // Hide the finley window
+            finleyWindow.style.display = 'none';
+        }
+    });
+    </script>
+</body>
+</html>

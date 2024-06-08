@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="containerSati">
+        <div id="intro_container" class="intro_container satiConta">
+            <img id="Finley" src='../static/img/Finley2.png'></img>
+            <button id="quit" class="quit" onclick="quitFunction()">&times;</button>
+        </div>
+        <div class="doubleImg">
+            <img src="../static/img/articleAntoine.png" alt="Image de Antoine Bizzarri" width="90">
+            <img src="../static/img/articlePierre.png" alt="Image de Pierre Alliaga" width="90">
+        </div>
+        <div class="chat-box bot botSati">
+            <div class="chat-text">
+                Merci d'avoir contacté notre service client. Nous vous répondrons dans les plus brefs délais.
+            </div>
+        </div>
+        <div class="rating">
+            <p>Satisfaction du service proposé par FINLEY</p>
+            <form id="ratingForm" action="/QuitNoted" method="POST">
+                <input type="hidden" id="ratingValue" name="ratingValue">
+                <!-- Rating buttons -->
+                <button type="button" onclick="submitRating('1')">1</button>
+                <button type="button" onclick="submitRating(2)">2</button>
+                <button type="button" onclick="submitRating(3)">3</button>
+                <button type="button" onclick="submitRating(4)">4</button>
+                <button type="button" onclick="submitRating('5')">5</button>
+                <button type="button" onclick="submitRating(6)">6</button>
+                <button type="button" onclick="submitRating(7)">7</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function submitRating(rating) {
+            document.getElementById('ratingValue').value = rating;
+            console.log("Rating value set:", rating);
+            document.getElementById('ratingForm').submit();
+            quitFunction();
+        }
+        function quitFunction() {
+            window.parent.postMessage('closeIframe', '*');
+        }
+    </script>
+</body>
+</html>

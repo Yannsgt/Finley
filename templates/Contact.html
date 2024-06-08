@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+<body>
+    <div class="containerContact">
+        <div id="intro_container" class="intro_container">
+            <p class="speechContact">Si Finley ne répond pas à votre demande, contactez directement notre service client.</p>
+            <button id="quit" class="quit" onclick="quitFunction()">&times;</button>
+        </div>
+        <div class="doubleImg">
+            <img src="../static/img/articleAntoine.png" alt="Image de Antoine Bizzarri" width="90">
+            <img src="../static/img/articlePierre.png" alt="Image de Pierre Alliaga" width="90">
+        </div>
+        <form method="POST" class="form-container" action="/EnvoieADFL">
+            <input id="phone" class="phone" type="tel" name="phone" placeholder="Téléphone (facultatif)" autocomplete="off"/>
+            <div id="demande-container" class="demande-container">
+                <textarea id="message" name="message" class="demande message" placeholder="Votre demande" required></textarea>
+                <button type="submit" id="submit" class="submit-button">
+                    <img src="../static/img/btnPlay.png" alt="bouton play" width="45">
+                </button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function quitFunction() {
+            window.parent.postMessage('closeIframe', '*');
+        }
+    </script>
+</body>
+</html>

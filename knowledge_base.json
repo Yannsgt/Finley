@@ -1,0 +1,1014 @@
+{
+  "questions": [
+    {
+      "question": "Comment puis-je accéder à mon compte sur DFL ?",
+      "answer": "Vous pouvez accéder à votre compte sur DFL en vous connectant à notre site web et en utilisant vos identifiants personnels.",
+      "intent": "account_access",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des conseils personnalisés en matière d'investissement ?",
+      "answer": "Oui, DFL propose des conseils personnalisés en matière d'investissement, basés sur votre profil de risque et vos objectifs financiers. Nos experts en investissement sont là pour vous aider à prendre des décisions éclairées.",
+      "intent": "personalized_investment_advice",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de confidentialité de DFL ?",
+      "answer": "DFL prend la protection de vos données personnelles très au sérieux. Nous avons une politique de confidentialité stricte qui garantit la sécurité et la confidentialité de vos informations.",
+      "intent": "privacy_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services d'investissement automatique ?",
+      "answer": "dap Oui, DFL propose des services d'investissement automatique, où vous pouvez définir des paramètres prédéfinis pour vos investissements et laisser notre plateforme gérer vos placements pour vous.",
+      "intent": "automatic_investment_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des comptes d'épargne ou des comptes-titres ?",
+      "answer": " DFL propose des comptes d'investissement, y compris des comptes-titres pour le trading d'actions, mais nous ne proposons pas de comptes d'épargne traditionnels.",
+      "intent": "savings_accounts",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des outils d'analyse de marché pour les investisseurs ?",
+      "answer": " Oui, DFL propose des outils d'analyse de marché avancés pour aider les investisseurs à prendre des décisions éclairées. Vous pouvez accéder à des données de marché en temps réel et à des analyses approfondies sur notre plateforme.",
+      "intent": "market_analysis_tools",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de diversification des investissements ?",
+      "answer": "DFL encourage la diversification des investissements pour réduire les risques et maximiser les rendements. Nos portefeuilles d'investissement sont conçus pour offrir une diversification adéquate à nos clients.",
+      "intent": "investment_diversification_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des webinaires ou des séminaires pour les investisseurs ?",
+      "answer": " Oui, DFL organise régulièrement des webinaires et des séminaires en ligne pour fournir des informations et des conseils sur les marchés financiers et l'investissement.",
+      "intent": "webinars_seminars",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels types de comptes sont disponibles chez DFL ?",
+      "answer": " DFL propose des comptes d'investissement individuels, des comptes joint, ainsi que des comptes pour les entreprises et les entités juridiques.",
+      "intent": "account_types",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL offre des outils de planification financière ?",
+      "answer": " Oui, DFL propose des outils de planification financière pour aider les clients à définir leurs objectifs financiers, à établir un plan d'épargne et d'investissement, et à suivre leur progression au fil du temps.",
+      "intent": "financial_planning_tools",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je récupérer mon argent de DFL si nécessaire ?",
+      "answer": "Vous pouvez retirer votre argent de DFL à tout moment en demandant un retrait via notre plateforme. Les fonds seront transférés sur votre compte bancaire dans un délai spécifié.",
+      "intent": "withdrawal_process",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL offre des options d'investissement socialement responsables ?",
+      "answer": " Oui, DFL propose des options d'investissement socialement responsables, où vous pouvez investir dans des entreprises et des fonds qui respectent des critères environnementaux, sociaux et de gouvernance (ESG).",
+      "intent": "socially_responsible_investing",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de frais cachés ?",
+      "answer": "DFL s'engage à la transparence des frais. Nous n'imposons pas de frais cachés et nous vous informons toujours des frais applicables avant de procéder à des transactions ou des investissements.",
+      "intent": "hidden_fees_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement en cryptomonnaies ?",
+      "answer": " Actuellement, DFL ne propose pas d'options d'investissement en cryptomonnaies, mais nous surveillons de près l'évolution de ce marché et pourrions envisager de le proposer à l'avenir.",
+      "intent": "cryptocurrency_investment_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je modifier mon profil d'investissement sur DFL ?",
+      "answer": "Vous pouvez modifier votre profil d'investissement sur DFL en accédant à vos paramètres de compte et en mettant à jour vos préférences d'investissement. Vous pouvez également contacter notre service client pour obtenir de l'aide à cet égard.",
+      "intent": "investment_profile_modification",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des comptes de démonstration pour les nouveaux utilisateurs ?",
+      "answer": " Oui, DFL propose des comptes de démonstration où vous pouvez pratiquer l'investissement sans risquer de capital réel. Cela vous permet de vous familiariser avec notre plateforme avant de commencer à investir avec de l'argent réel.",
+      "intent": "demo_accounts",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les horizons d'investissement recommandés chez DFL ?",
+      "answer": "DFL recommande des horizons d'investissement à long terme pour tirer le meilleur parti des rendements potentiels des investissements. Cependant, nous proposons également des options pour les investisseurs à court et moyen terme.",
+      "intent": "recommended_investment_horizons",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL offre des services de gestion de patrimoine ?",
+      "answer": "Oui, DFL propose des services de gestion de patrimoine pour les clients ayant des portefeuilles d'investissement importants. Nos experts en gestion de patrimoine peuvent vous aider à optimiser votre portefeuille et à atteindre vos objectifs financiers.",
+      "intent": "wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les critères pour devenir client chez DFL ?",
+      "answer": "Pour devenir client chez DFL, vous devez remplir le formulaire d'inscription, répondre au questionnaire de risque et fournir les documents d'identité requis.",
+      "intent": "criteria_for_becoming_a_client",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des conseils fiscaux pour les investisseurs ?",
+      "answer": " DFL ne fournit pas de conseils fiscaux. Nous vous recommandons de consulter un conseiller fiscal professionnel pour toute question concernant votre situation fiscale personnelle.",
+      "intent": "tax_advisory_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de dépôt disponibles sur DFL ?",
+      "answer": " Vous pouvez effectuer des dépôts sur DFL via virement bancaire, carte de crédit ou d'autres méthodes de paiement acceptées. Les fonds seront crédités sur votre compte d'investissement une fois le dépôt effectué.",
+      "intent": "deposit_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des outils de gestion de portefeuille avancés ?",
+      "answer": " Oui, DFL propose des outils de gestion de portefeuille avancés, y compris des fonctionnalités telles que le rééquilibrage automatique, la surveillance des performances et la gestion des flux de trésorerie.",
+      "intent": "advanced_portfolio_management_tools",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je savoir si DFL est réglementé par une autorité financière ?",
+      "answer": " DFL est réglementé par [insérer l'autorité financière de votre pays ici]. Vous pouvez vérifier notre statut réglementaire sur notre site web ou contacter notre service client pour plus d'informations.",
+      "intent": "regulatory_authority",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds communs de placement ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des fonds communs de placement, offrant aux investisseurs une diversification supplémentaire et un accès à des gestionnaires de fonds professionnels.",
+      "intent": "mutual_fund_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de sécurité des données ?",
+      "answer": "DFL prend la sécurité des données très au sérieux et utilise des mesures de sécurité avancées pour protéger les informations des clients contre tout accès non autorisé ou toute utilisation frauduleuse.",
+      "intent": "data_security_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de trésorerie ?",
+      "answer": " Oui, DFL propose des services de gestion de trésorerie pour aider les clients à optimiser leur trésorerie et à maximiser les rendements sur leurs liquidités excédentaires.",
+      "intent": "cash_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des investissements dans des produits dérivés ?",
+      "answer": "Non, DFL ne propose pas d'investissements dans des produits dérivés, car ils sont considérés comme trop risqués pour la plupart des investisseurs individuels.",
+      "intent": "derivative_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des options de retraite ou de planification de la retraite ?",
+      "answer": "Oui, DFL propose des options de retraite et des outils de planification de la retraite pour aider les clients à préparer financièrement leur retraite.",
+      "intent": "retirement_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je recevoir des mises à jour sur les performances de mon portefeuille ?",
+      "answer": "DFL envoie régulièrement des rapports sur la performance de votre portefeuille par e-mail et vous pouvez également consulter les performances de votre portefeuille en vous connectant à votre compte sur notre site web.",
+      "intent": "portfolio_performance_updates",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de conseil en planification successorale ?",
+      "answer": "Non, DFL ne propose pas de services de conseil en planification successorale. Nous vous recommandons de consulter un professionnel qualifié pour toute question concernant la planification successorale.",
+      "intent": "estate_planning_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements dans des fonds négociés en bourse (ETF) ?",
+      "answer": "Oui, DFL propose des investissements dans des fonds négociés en bourse (ETF), offrant aux investisseurs une diversification instantanée et un accès à un large éventail de marchés et de secteurs.",
+      "intent": "etf_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des outils d'analyse de portefeuille ?",
+      "answer": " Oui, DFL propose des outils d'analyse de portefeuille avancés pour aider les investisseurs à évaluer la composition de leur portefeuille, la diversification et les performances.",
+      "intent": "portfolio_analysis_tools",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des marchés internationaux ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des marchés internationaux, offrant aux investisseurs un accès à une diversification géographique et à des opportunités de croissance internationales.",
+      "intent": "international_investment_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de gestion des risques ?",
+      "answer": "DFL prend la gestion des risques très au sérieux et utilise des techniques de gestion de portefeuille avancées pour minimiser les risques et protéger les investissements de nos clients.",
+      "intent": "risk_management_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je annuler un investissement sur DFL ?",
+      "answer": "Vous pouvez annuler un investissement sur DFL en contactant notre service client dans les délais spécifiés. Veuillez noter que des conditions spécifiques peuvent s'appliquer en fonction du type d'investissement.",
+      "intent": "investment_cancellation",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des matières premières ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des matières premières telles que l'or, le pétrole et les métaux précieux, offrant aux investisseurs une diversification supplémentaire de leur portefeuille.",
+      "intent": "commodity_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des comptes de trading pour les investisseurs actifs ?",
+      "answer": " Oui, DFL propose des comptes de trading pour les investisseurs actifs qui souhaitent acheter et vendre des actions, des ETF et d'autres instruments financiers sur les marchés financiers.",
+      "intent": "trading_accounts",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de remboursement des frais ?",
+      "answer": "DFL n'offre pas de remboursement des frais de gestion, sauf en cas d'erreur de notre part ou de circonstances exceptionnelles. Nous vous recommandons de lire attentivement nos conditions générales pour plus d'informations à ce sujet.",
+      "intent": "fee_refund_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de trading sur marge ?",
+      "answer": " Non, DFL ne propose pas de services de trading sur marge. Nous encourageons nos clients à investir de manière responsable et à éviter les pratiques de trading risquées.",
+      "intent": "margin_trading_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des obligations ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des obligations, offrant aux investisseurs un revenu fixe et une diversification supplémentaire de leur portefeuille.",
+      "intent": "bond_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds immobiliers ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des fonds immobiliers, offrant aux investisseurs un accès à des investissements immobiliers sans avoir à acheter de biens immobiliers physiques.",
+      "intent": "real_estate_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de paiement disponibles pour les frais de gestion chez DFL ?",
+      "answer": " (Similarité) Vous pouvez payer les frais de gestion chez DFL par prélèvement automatique sur votre compte bancaire ou par carte de crédit. Les frais seront prélevés mensuellement sur votre compte.",
+      "intent": "payment_options_for_management_fees",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des services de trading algorithmique ?",
+      "answer": " Oui, DFL propose des services de trading algorithmique pour les clients qui souhaitent automatiser leurs transactions et optimiser leurs stratégies d'investissement.",
+      "intent": "algorithmic_trading_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des options d'investissement dans des fonds de capital-risque ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de capital-risque. Nous nous concentrons principalement sur des stratégies d'investissement plus traditionnelles.",
+      "intent": "venture_capital_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je réinitialiser mon mot de passe sur DFL ?",
+      "answer": "Vous pouvez réinitialiser votre mot de passe sur DFL en suivant les instructions de réinitialisation de mot de passe sur notre site web. Vous recevrez un e-mail avec un lien pour réinitialiser votre mot de passe.",
+      "intent": "password_reset",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds de pension ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de pension. Nous proposons plutôt des options d'investissement individuelles et des comptes d'investissement.",
+      "intent": "pension_fund_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de dividendes ?",
+      "answer": " DFL n'offre pas de dividendes sur les investissements, car nous nous concentrons sur la croissance du capital à long terme plutôt que sur la distribution de dividendes.",
+      "intent": "dividend_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des hedge funds ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des hedge funds. Nous nous concentrons plutôt sur des stratégies d'investissement plus traditionnelles et accessibles.",
+      "intent": "hedge_fund_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des services de trading sur le Forex ?",
+      "answer": " Non, DFL ne propose pas de services de trading sur le Forex. Nous nous concentrons principalement sur les actions, les ETF et d'autres instruments financiers.",
+      "intent": "forex_trading_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de rendement des investissements ?",
+      "answer": " DFL ne garantit pas de rendements spécifiques sur les investissements, car les performances peuvent varier en fonction des conditions du marché et des choix d'investissement. Nous visons à fournir des rendements compétitifs à long terme.",
+      "intent": "investment_return_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des startups ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des startups. Nous nous concentrons plutôt sur des investissements plus traditionnels et établis.",
+      "intent": "startup_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de conservation des données ?",
+      "answer": "DFL conserve les données des clients conformément aux lois et réglementations applicables en matière de protection des données. Nous ne conservons que les informations nécessaires à la prestation de nos services.",
+      "intent": "data_retention_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds d'obligations municipales ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds d'obligations municipales. Nous nous concentrons plutôt sur des investissements plus largement diversifiés.",
+      "intent": "municipal_bond_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de portefeuille sur mesure ?",
+      "answer": " Oui, DFL propose des services de gestion de portefeuille sur mesure pour les clients ayant des besoins spécifiques en matière d'investissement. Nos experts en investissement peuvent concevoir un portefeuille adapté à vos besoins.",
+      "intent": "custom_portfolio_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds d'obligations d'État ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds d'obligations d'État, offrant aux investisseurs un revenu fixe et une diversification supplémentaire de leur portefeuille.",
+      "intent": "government_bond_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds de pension immobiliers ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de pension immobiliers. Nous nous concentrons plutôt sur des options d'investissement plus traditionnelles.",
+      "intent": "real_estate_pension_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de transparence des investissements ?",
+      "answer": "DFL s'engage à la transparence des investissements et fournit des rapports détaillés sur la performance des portefeuilles, les frais et les stratégies d'investissement. Nous croyons en une communication ouverte et honnête avec nos clients.",
+      "intent": "investment_transparency_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds d'investissement alternatifs ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds d'investissement alternatifs. Nous nous concentrons plutôt sur des stratégies d'investissement plus traditionnelles et accessibles.",
+      "intent": "alternative_investment_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds indiciels ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des fonds indiciels, offrant aux investisseurs une exposition à un large éventail de marchés et de secteurs à moindre coût.",
+      "intent": "index_fund_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière d'investissement dans des IPO ?",
+      "answer": " DFL ne garantit pas l'accès aux IPO, mais nous pouvons offrir à nos clients la possibilité de participer à certaines offres publiques initiales en fonction de la disponibilité et des conditions du marché.",
+      "intent": "ipo_investment_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds d'obligations d'entreprise ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des fonds d'obligations d'entreprise, offrant aux investisseurs un revenu fixe et une diversification supplémentaire de leur portefeuille.",
+      "intent": "corporate_bond_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds de couverture ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de couverture. Nous nous concentrons plutôt sur des stratégies d'investissement plus traditionnelles et accessibles.",
+      "intent": "hedge_fund_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de réinvestissement des dividendes ?",
+      "answer": " DFL propose le réinvestissement automatique des dividendes pour les clients qui choisissent cette option. Les dividendes réinvestis sont utilisés pour acheter des actions supplémentaires dans le portefeuille du client.",
+      "intent": "dividend_reinvestment_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": " Est-ce que DFL propose des options d'investissement dans des fonds de capital-investissement ?",
+      "answer": "Non, DFL ne propose pas d'options d'investissement dans des fonds de capital-investissement. Nous nous concentrons plutôt sur des investissements plus liquides et accessibles.",
+      "intent": "private_equity_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "(Similarité?) DFL propose-t-il des options d'investissement dans des fonds de retraite ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de retraite. Nous proposons plutôt des options d'investissement individuelles pour les clients.",
+      "intent": "retirement_fund_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de négociation des actions ?",
+      "answer": " DFL utilise des méthodes de négociation basées sur l'exécution des ordres pour garantir les meilleurs prix d'exécution possibles pour nos clients. Nous nous engageons à fournir une exécution rapide et efficace des transactions.",
+      "intent": "stock_trading_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds de pension d'entreprise ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de pension d'entreprise. Nous proposons plutôt des solutions d'investissement individuelles pour les clients.",
+      "intent": "corporate_pension_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds de dette souveraine ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des fonds de dette souveraine, offrant aux investisseurs un revenu fixe et une sécurité relative.",
+      "intent": "sovereign_debt_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière d'investissement dans des placements à revenu fixe ?",
+      "answer": " DFL propose des options d'investissement dans des placements à revenu fixe pour les investisseurs qui recherchent un revenu régulier et une préservation du capital. Nous offrons une gamme diversifiée de fonds obligataires et d'autres instruments à revenu fixe.",
+      "intent": "fixed_income_investment_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "(Similarité?) DFL propose-t-il des options d'investissement dans des fonds de capital-risque ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de capital-risque. Nous nous concentrons plutôt sur des stratégies d'investissement plus traditionnelles et accessibles.",
+      "intent": "venture_capital_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds de dette privée ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de dette privée. Nous nous concentrons plutôt sur des investissements plus liquides et accessibles.",
+      "intent": "private_debt_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de rééquilibrage des portefeuilles ?",
+      "answer": " DFL utilise des stratégies de rééquilibrage de portefeuille automatique pour maintenir la composition cible du portefeuille et optimiser les rendements à long terme. Nous rééquilibrerons votre portefeuille selon les objectifs d'investissement convenus.",
+      "intent": "portfolio_rebalancing_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds de capital de croissance ?",
+      "answer": " Oui, DFL propose des options d'investissement dans des fonds de capital de croissance, offrant aux investisseurs un accès à des entreprises à fort potentiel de croissance et à des rendements potentiellement élevés.",
+      "intent": "growth_equity_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds de prêts directs ?",
+      "answer": " Non, DFL ne propose pas d'options d'investissement dans des fonds de prêts directs. Nous nous concentrons plutôt sur des investissements plus largement diversifiés et accessibles.",
+      "intent": "direct_lending_funds",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelle est la politique de DFL en matière de frais de transaction ?",
+      "answer": " DFL facture des frais de transaction sur certaines opérations, notamment l'achat et la vente d'actions et d'autres instruments financiers. Vous pouvez consulter notre grille tarifaire pour connaître les frais applicables.",
+      "intent": "transaction_fee_policy",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+
+
+
+
+
+
+    
+
+    {
+      "question": "Qu'est-ce que DFL propose comme services d'investissement en ligne ?",
+      "answer": "DFL propose des solutions d'épargne et d'investissement en ligne accessibles, performantes et à bas coûts, avec des portefeuilles d'investissement simples, expliqués et performants.",
+      "intent": "investment_services_offered",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je m'inscrire chez DFL ?",
+      "answer": "Pour vous inscrire chez DFL, vous devez suivre les étapes d'inscription sur notre plateforme en ligne, y compris la création d'un compte et la réponse à un questionnaire de profil d'investisseur.",
+      "intent": "registration_process",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options de gestion de patrimoine ?",
+      "answer": "Oui, DFL propose des services de gestion de patrimoine pour aider les clients à planifier leur retraite, à gérer leurs actifs et à préparer leur succession.",
+      "intent": "wealth_management_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les portefeuilles d'investissement disponibles chez DFL ?",
+      "answer": "DFL propose plusieurs portefeuilles d'investissement adaptés à différents profils de risque, tels que Prudent, Modéré, Dynamique et Offensif.",
+      "intent": "available_investment_portfolios",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Qu'est-ce que le questionnaire de risque chez DFL ?",
+      "answer": "Le questionnaire de risque chez DFL est un outil permettant de définir le profil d'investisseur d'un client, afin de mieux comprendre ses préférences et son appétit pour le risque.",
+      "intent": "risk_questionnaire",
+      "entities": ["questionnaire de Risque"],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des conseils en planification financière ?",
+      "answer": "Oui, DFL propose des services de conseil en planification financière, comprenant la planification de la retraite, la gestion de patrimoine et la planification fiscale.",
+      "intent": "financial_planning_advice",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Comment puis-je contacter DFL pour obtenir de l'aide ?",
+      "answer": "Vous pouvez contacter DFL via notre chatbot ou en nous envoyant un message sur notre plateforme en ligne. Nous répondrons dans les plus brefs délais.",
+      "intent": "contacting_DFL_for_help",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les technologies émergentes ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les technologies émergentes, permettant aux investisseurs de soutenir des entreprises innovantes dans ce domaine.",
+      "intent": "emerging_technologies_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL offre des services de gestion de patrimoine pour les professionnels des sciences sociales ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les professionnels des sciences sociales, y compris les économistes, les sociologues et les experts en sciences politiques, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "social_sciences_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds axés sur les voyages et le tourisme ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les voyages et le tourisme, permettant aux investisseurs de soutenir des entreprises impliquées dans l'industrie du voyage, de l'hôtellerie et des loisirs.",
+      "intent": "travel_and_tourism_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL offre des services de gestion de portefeuille pour les travailleurs indépendants ?",
+      "answer": "Oui, DFL offre des services de gestion de portefeuille pour les travailleurs indépendants, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "self_employed_portfolio_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des options d'investissement dans des fonds axés sur la technologie de l'information ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur la technologie de l'information, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement de logiciels, les services informatiques et les technologies émergentes.",
+      "intent": "information_technology_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de conseil en planification financière disponibles chez DFL ?",
+      "answer": "DFL propose des options de conseil en planification financière telles que la planification de la retraite, la gestion de patrimoine, la planification successorale et la planification fiscale.",
+      "intent": "financial_planning_advisory_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement durable et les énergies propres.",
+      "intent": "renewable_energy_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de gestion de patrimoine disponibles pour les jeunes professionnels chez DFL ?",
+      "answer": "DFL propose des options de gestion de patrimoine spécifiquement conçues pour les jeunes professionnels, comprenant des conseils en planification financière, des services d'investissement et des stratégies de gestion de patrimoine à long terme.",
+      "intent": "young_professionals_wealth_management_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de planification financière pour les entrepreneurs ?",
+      "answer": "Oui, DFL propose des services de planification financière pour les entrepreneurs, y compris la gestion de trésorerie, la planification de la retraite et la protection des actifs.",
+      "intent": "entrepreneurs_financial_planning_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de l'inscription chez DFL ?",
+      "answer": "Les avantages de l'inscription chez DFL incluent l'accès à des services de gestion de patrimoine professionnels, des options d'investissement personnalisées et des conseils en planification financière.",
+      "intent": "DFL_registration_benefits",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les soins de santé ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les soins de santé, permettant aux investisseurs de soutenir des entreprises impliquées dans le secteur de la santé et de la biotechnologie.",
+      "intent": "healthcare_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les frais associés aux services de gestion de patrimoine chez DFL ?",
+      "answer": "Les frais associés aux services de gestion de patrimoine chez DFL sont basés sur un pourcentage des capitaux sous gestion, actuellement fixé à 1.5% par an.",
+      "intent": "wealth_management_service_fees",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur l'immobilier ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur l'immobilier, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement immobilier et la gestion d'actifs immobiliers.",
+      "intent": "real_estate_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de gestion de patrimoine pour les professionnels du secteur de la santé ?",
+      "answer": "Oui, DFL propose des services de gestion de patrimoine pour les professionnels du secteur de la santé, y compris les médecins, les infirmières et les autres professionnels de la santé, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "healthcare_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les propriétaires d'entreprise ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les propriétaires d'entreprise, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "business_owners_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de choisir DFL pour la gestion de mon patrimoine ?",
+      "answer": "Les avantages de choisir DFL pour la gestion de votre patrimoine comprennent des conseils financiers professionnels, des solutions d'investissement sur mesure et un accès à des portefeuilles diversifiés.",
+      "intent": "DFL_wealth_management_advantages",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les entreprises innovantes ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les entreprises innovantes, permettant aux investisseurs de soutenir des start-ups et des entreprises en croissance dans divers secteurs.",
+      "intent": "innovative_businesses_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels types de portefeuilles d'investissement sont disponibles chez DFL ?",
+      "answer": "DFL propose une gamme de portefeuilles d'investissement adaptés à différents profils de risque, tels que Prudent, Modéré, Dynamique et Offensif.",
+      "intent": "types_of_investment_portfolios",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les professions libérales ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les professions libérales, y compris les avocats, les consultants et les experts-comptables, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "self_employed_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement durable et les énergies propres.",
+      "intent": "renewable_energy_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de conseil en planification financière disponibles pour les jeunes investisseurs chez DFL ?",
+      "answer": "DFL propose des options de conseil en planification financière spécifiquement conçues pour les jeunes investisseurs, comprenant des stratégies d'investissement à long terme et des conseils sur la gestion de patrimoine.",
+      "intent": "young_investors_financial_planning_advisory_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les travailleurs indépendants ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les travailleurs indépendants, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "self_employed_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de l'inscription chez DFL ?",
+      "answer": "Les avantages de l'inscription chez DFL incluent l'accès à des services de gestion de patrimoine professionnels, des options d'investissement personnalisées et des conseils en planification financière.",
+      "intent": "DFL_registration_benefits",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les soins de santé ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les soins de santé, permettant aux investisseurs de soutenir des entreprises impliquées dans le secteur de la santé et de la biotechnologie.",
+      "intent": "healthcare_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les frais associés aux services de gestion de patrimoine chez DFL ?",
+      "answer": "Les frais associés aux services de gestion de patrimoine chez DFL sont basés sur un pourcentage des capitaux sous gestion, actuellement fixé à 1.5% par an.",
+      "intent": "wealth_management_service_fees",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur l'immobilier ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur l'immobilier, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement immobilier et la gestion d'actifs immobiliers.",
+      "intent": "real_estate_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de gestion de patrimoine pour les professionnels du secteur de la santé ?",
+      "answer": "Oui, DFL propose des services de gestion de patrimoine pour les professionnels du secteur de la santé, y compris les médecins, les infirmières et les autres professionnels de la santé, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "healthcare_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les propriétaires d'entreprise ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les propriétaires d'entreprise, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "business_owners_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de choisir DFL pour la gestion de mon patrimoine ?",
+      "answer": "Les avantages de choisir DFL pour la gestion de votre patrimoine comprennent des conseils financiers professionnels, des solutions d'investissement sur mesure et un accès à des portefeuilles diversifiés.",
+      "intent": "DFL_wealth_management_advantages",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les entreprises innovantes ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les entreprises innovantes, permettant aux investisseurs de soutenir des start-ups et des entreprises en croissance dans divers secteurs.",
+      "intent": "innovative_businesses_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels types de portefeuilles d'investissement sont disponibles chez DFL ?",
+      "answer": "DFL propose une gamme de portefeuilles d'investissement adaptés à différents profils de risque, tels que Prudent, Modéré, Dynamique et Offensif.",
+      "intent": "types_of_investment_portfolios",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les professions libérales ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les professions libérales, y compris les avocats, les consultants et les experts-comptables, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "self_employed_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement durable et les énergies propres.",
+      "intent": "renewable_energy_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de conseil en planification financière disponibles pour les jeunes investisseurs chez DFL ?",
+      "answer": "DFL propose des options de conseil en planification financière spécifiquement conçues pour les jeunes investisseurs, comprenant des stratégies d'investissement à long terme et des conseils sur la gestion de patrimoine.",
+      "intent": "young_investors_financial_planning_advisory_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les travailleurs indépendants ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les travailleurs indépendants, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "self_employed_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de l'inscription chez DFL ?",
+      "answer": "Les avantages de l'inscription chez DFL incluent l'accès à des services de gestion de patrimoine professionnels, des options d'investissement personnalisées et des conseils en planification financière.",
+      "intent": "DFL_registration_benefits",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les soins de santé ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les soins de santé, permettant aux investisseurs de soutenir des entreprises impliquées dans le secteur de la santé et de la biotechnologie.",
+      "intent": "healthcare_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les frais associés aux services de gestion de patrimoine chez DFL ?",
+      "answer": "Les frais associés aux services de gestion de patrimoine chez DFL sont basés sur un pourcentage des capitaux sous gestion, actuellement fixé à 1.5% par an.",
+      "intent": "wealth_management_service_fees",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur l'immobilier ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur l'immobilier, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement immobilier et la gestion d'actifs immobiliers.",
+      "intent": "real_estate_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de gestion de patrimoine pour les professionnels du secteur de la santé ?",
+      "answer": "Oui, DFL propose des services de gestion de patrimoine pour les professionnels du secteur de la santé, y compris les médecins, les infirmières et les autres professionnels de la santé, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "healthcare_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les propriétaires d'entreprise ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les propriétaires d'entreprise, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "business_owners_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de choisir DFL pour la gestion de mon patrimoine ?",
+      "answer": "Les avantages de choisir DFL pour la gestion de votre patrimoine comprennent des conseils financiers professionnels, des solutions d'investissement sur mesure et un accès à des portefeuilles diversifiés.",
+      "intent": "DFL_wealth_management_advantages",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les entreprises innovantes ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les entreprises innovantes, permettant aux investisseurs de soutenir des start-ups et des entreprises en croissance dans divers secteurs.",
+      "intent": "innovative_businesses_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels types de portefeuilles d'investissement sont disponibles chez DFL ?",
+      "answer": "DFL propose une gamme de portefeuilles d'investissement adaptés à différents profils de risque, tels que Prudent, Modéré, Dynamique et Offensif.",
+      "intent": "types_of_investment_portfolios",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les professions libérales ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les professions libérales, y compris les avocats, les consultants et les experts-comptables, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "self_employed_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement durable et les énergies propres.",
+      "intent": "renewable_energy_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de conseil en planification financière disponibles pour les jeunes investisseurs chez DFL ?",
+      "answer": "DFL propose des options de conseil en planification financière spécifiquement conçues pour les jeunes investisseurs, comprenant des stratégies d'investissement à long terme et des conseils sur la gestion de patrimoine.",
+      "intent": "young_investors_financial_planning_advisory_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les travailleurs indépendants ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les travailleurs indépendants, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "self_employed_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de l'inscription chez DFL ?",
+      "answer": "Les avantages de l'inscription chez DFL incluent l'accès à des services de gestion de patrimoine professionnels, des options d'investissement personnalisées et des conseils en planification financière.",
+      "intent": "DFL_registration_benefits",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les soins de santé ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les soins de santé, permettant aux investisseurs de soutenir des entreprises impliquées dans le secteur de la santé et de la biotechnologie.",
+      "intent": "healthcare_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les frais associés aux services de gestion de patrimoine chez DFL ?",
+      "answer": "Les frais associés aux services de gestion de patrimoine chez DFL sont basés sur un pourcentage des capitaux sous gestion, actuellement fixé à 1.5% par an.",
+      "intent": "wealth_management_service_fees",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur l'immobilier ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur l'immobilier, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement immobilier et la gestion d'actifs immobiliers.",
+      "intent": "real_estate_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des services de gestion de patrimoine pour les professionnels du secteur de la santé ?",
+      "answer": "Oui, DFL propose des services de gestion de patrimoine pour les professionnels du secteur de la santé, y compris les médecins, les infirmières et les autres professionnels de la santé, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "healthcare_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les propriétaires d'entreprise ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les propriétaires d'entreprise, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "business_owners_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels sont les avantages de choisir DFL pour la gestion de mon patrimoine ?",
+      "answer": "Les avantages de choisir DFL pour la gestion de votre patrimoine comprennent des conseils financiers professionnels, des solutions d'investissement sur mesure et un accès à des portefeuilles diversifiés.",
+      "intent": "DFL_wealth_management_advantages",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL propose-t-il des investissements axés sur les entreprises innovantes ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les entreprises innovantes, permettant aux investisseurs de soutenir des start-ups et des entreprises en croissance dans divers secteurs.",
+      "intent": "innovative_businesses_focused_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quels types de portefeuilles d'investissement sont disponibles chez DFL ?",
+      "answer": "DFL propose une gamme de portefeuilles d'investissement adaptés à différents profils de risque, tels que Prudent, Modéré, Dynamique et Offensif.",
+      "intent": "types_of_investment_portfolios",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les professions libérales ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les professions libérales, y compris les avocats, les consultants et les experts-comptables, afin de les aider à planifier leur retraite et à gérer leurs actifs.",
+      "intent": "self_employed_professionals_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Est-ce que DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables ?",
+      "answer": "Oui, DFL propose des options d'investissement dans des fonds axés sur les énergies renouvelables, permettant aux investisseurs de soutenir des entreprises impliquées dans le développement durable et les énergies propres.",
+      "intent": "renewable_energy_focused_funds_investments",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "Quelles sont les options de conseil en planification financière disponibles pour les jeunes investisseurs chez DFL ?",
+      "answer": "DFL propose des options de conseil en planification financière spécifiquement conçues pour les jeunes investisseurs, comprenant des stratégies d'investissement à long terme et des conseils sur la gestion de patrimoine.",
+      "intent": "young_investors_financial_planning_advisory_options",
+      "entities": [],
+      "sentiment": "neutral"
+    },
+    {
+      "question": "DFL offre-t-il des services de gestion de patrimoine pour les travailleurs indépendants ?",
+      "answer": "Oui, DFL offre des services de gestion de patrimoine pour les travailleurs indépendants, y compris la planification financière, la gestion de trésorerie et la planification de la retraite.",
+      "intent": "self_employed_wealth_management_services",
+      "entities": [],
+      "sentiment": "neutral"
+    }
+    
+  ]
+}

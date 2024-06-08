@@ -1,0 +1,9 @@
+cd C:\xampp\htdocs\AI\AI_Test\Chatbot_DFL
+Scripts\activate
+cd C:\xampp\htdocs\AI\AI_Test\Chatbot_DFL\Versions_Finley\Finley_V0.6
+
+TO DO:
+
+ - Entrer la demande en temps que premiere question
+ - ajouter notation des réponses
+ - Visuel

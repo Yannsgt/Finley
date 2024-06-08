@@ -1,0 +1,270 @@
+{
+  "clients": [
+    {
+      "name": "John",
+      "surname": "Doe",
+      "mail": "john.doe@example.com",
+      "chatbot_data": {
+        "average_questions_per_session": 5,
+        "total_sessions": {
+          "weekly": 10,
+          "monthly": 30,
+          "trimester": 90
+        },
+        "quit_method": "manually",
+        "average_grade": {
+          "weekly": 4.5,
+          "monthly": 4.3,
+          "trimester": 4.2
+        }
+      }
+    },
+    {
+      "name": "Jane",
+      "surname": "Smith",
+      "mail": "jane.smith@example.com",
+      "chatbot_data": {
+        "average_questions_per_session": 4,
+        "total_sessions": {
+          "weekly": 8,
+          "monthly": 25,
+          "trimester": 80
+        },
+        "quit_method": "afk",
+        "average_grade": {
+          "weekly": 4.2,
+          "monthly": 4.4,
+          "trimester": 4.1
+        }
+      }
+    },
+    {
+      "name": "Thomas",
+      "surname": "Quintana",
+      "mail": "thomas.quintana@hotmail.com",
+      "chatbot_data": {
+        "average_questions_per_session": 1.5925925925925926,
+        "total_sessions": {
+          "weekly": 26,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "quit",
+        "average_grade": {
+          "weekly": 4.814814814814815,
+          "monthly": 4.814814814814815,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "test1",
+      "surname": "test2",
+      "mail": "test@test",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "jean",
+      "surname": "Delafontaine",
+      "mail": "jeanDelafontaine@conte.fr",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "zaert",
+      "surname": "afdfa",
+      "mail": "ahaba@here.tezz",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "Alex",
+      "surname": "Stanton",
+      "mail": "alex.stanton@dafucoiuytgfcvbhjikuyh.uytfgh",
+      "chatbot_data": {
+        "average_questions_per_session": 1.0,
+        "total_sessions": {
+          "weekly": 1,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "quit",
+        "average_grade": {
+          "weekly": 2.5,
+          "monthly": 2.5,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "\u00e9",
+      "surname": "Qui",
+      "mail": "zerdf@uoy.fcds",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "tt",
+      "surname": "t",
+      "mail": "thomas.quintana@hotmail.comt",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "yann",
+      "surname": "suget",
+      "mail": "yansug@live.fr",
+      "chatbot_data": {
+        "average_questions_per_session": 3.2,
+        "total_sessions": {
+          "weekly": 4,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "quit",
+        "average_grade": {
+          "weekly": 3.0,
+          "monthly": 3.0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "test",
+      "surname": "test",
+      "mail": "test@g.com",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "zehg",
+      "surname": "egh",
+      "mail": "zeh@test.com",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "Doe",
+      "surname": "John",
+      "mail": "john_doe@test.com",
+      "chatbot_data": {
+        "average_questions_per_session": 2.0714285714285716,
+        "total_sessions": {
+          "weekly": 13,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "quit",
+        "average_grade": {
+          "weekly": 4.071428571428571,
+          "monthly": 4.071428571428571,
+          "trimester": 0
+        }
+      }
+    },
+    {
+      "name": "Doe",
+      "surname": "John",
+      "mail": "John_doe@test.com",
+      "chatbot_data": {
+        "average_questions_per_session": 0,
+        "total_sessions": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        },
+        "quit_method": "",
+        "average_grade": {
+          "weekly": 0,
+          "monthly": 0,
+          "trimester": 0
+        }
+      }
+    }
+  ]
+}

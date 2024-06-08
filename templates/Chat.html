@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="finleyChat">
+        <div id="intro_container" class="intro_container">
+            <img id="Finley" src="{{ url_for('static', filename='img/Finley2.png') }}" alt="Finley Image"></img>
+            <form id="contactForm" class="contactForm" method="POST" action="/Contact">
+                <button id="contact" class="contact">Contacter notre service client</button>
+            </form>
+            <button id="quit" class="quit" onclick=quitFunction()>&times;</button>
+        </div>
+        <div class="chat-container" id="chat-container">
+            <!-- Ajoutez d'autres messages utilisateur et bot ici -->
+        </div>
+        <form method="POST" class="login2" action="/Finley" id="chat-form">
+            <textarea id="user-input" name="user-input" class="user-input" placeholder="Nouveau message" required></textarea>
+            <button type="submit" id="send-btn" class="send-btn">
+                <img src="../static/img/btnPlay2.png" alt="bouton play" width="23">
+            </button>
+        </form>
+    </div>
+    <script>
+        document.getElementById("chat-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            sendMessage();
+        });
+    
+        function sendMessage() {
+            var userInput = document.getElementById("user-input").value;
+            if (userInput.trim() !== "") {
+                addMessage("user", userInput);
+    
+                // Send the user's question to the backend
+                fetch('/Finley', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ user_question: userInput })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Add the bot's response to the chat container
+                    addMessageWithButtons("bot", data.bot_response);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+    
+                // Clear the input field
+                document.getElementById("user-input").value = "";
+            }
+        }
+    
+        function addMessage(sender, message) {
+            var chatContainer = document.getElementById("chat-container");
+            var chatBox = document.createElement("div");
+            chatBox.className = "chat-box " + sender;
+            var chatText = document.createElement("div");
+            chatText.className = "chat-text";
+            chatText.textContent = message;
+            chatBox.appendChild(chatText);
+            chatContainer.appendChild(chatBox);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+    
+        function addMessageWithButtons(sender, message) {
+            var chatContainer = document.getElementById("chat-container");
+            var chatBox = document.createElement("div");
+            chatBox.className = "chat-box " + sender;
+            var chatText = document.createElement("div");
+            chatText.className = "chat-text";
+            chatText.textContent = message;
+            chatBox.appendChild(chatText);
+
+            if (sender === "bot") {
+                var btnContainer = document.createElement("div");
+                btnContainer.className = "bot-btn-container";
+                btnContainer.id = "btn-container-" + Date.now();
+
+                var badButton = document.createElement("button");
+                badButton.className = "bot-btn";
+                badButton.innerHTML = '<img src="../static/img/smileyRed.png" alt="Smiley rouge pas content" width="15"> À améliorer';
+                badButton.id = "bad-btn-" + Date.now();
+                badButton.onclick = function() {
+                    sendNote('/NoteBad', message, btnContainer.id);
+                };
+
+                var goodButton = document.createElement("button");
+                goodButton.className = "bot-btn";
+                goodButton.innerHTML = '<img src="../static/img/smileyGreen.png" alt="Smiley vert content" width="15"> Réponse Utile';
+                goodButton.id = "good-btn-" + Date.now();
+                goodButton.onclick = function() {
+                    sendNote('/NoteGood', message, btnContainer.id);
+                };
+
+                btnContainer.appendChild(badButton);
+                btnContainer.appendChild(goodButton);
+                chatBox.appendChild(btnContainer);
+            }
+
+            chatContainer.appendChild(chatBox);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+    
+        function sendNote(url, message, containerId) {
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ note: message })
+            })
+            .then(response => {
+                if (response.ok) {
+                    var btnContainer = document.getElementById(containerId);
+                    btnContainer.innerHTML = "<span class='merciChat'>Merci pour votre retour.</span>";
+                } else {
+                    alert('Failed to send note.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to send note.');
+            });
+        }
+
+    
+        function quitFunction() {
+            window.location.href = '/Quit';
+        }
+        // Fetch demandeUP from the backend API when the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('/getDemandeUP')  // Replace with your actual API endpoint to get demandeUP
+                .then(response => response.json())
+                .then(data => {
+                    var demandeUP = data.demandeUP;  // Assuming the API returns a JSON object with a property 'demandeUP'
+
+                    if (demandeUP.trim() !== "") {
+                        addMessage("user",demandeUP);
+                        // Send the initial question to the backend
+                        fetch('/Finley', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ user_question: demandeUP })
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            // Add the bot's initial response to the chat container
+                            addMessageWithButtons("bot", data.bot_response);
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching demandeUP:', error);
+                });
+        });
+
+    </script>
+    
+    
+    
+    
+</body>
+</html>
