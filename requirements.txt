@@ -1,1 +1,5 @@
 Flask
+spellchecker
+cryptography
+smtplib
+email
