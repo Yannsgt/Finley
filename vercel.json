@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/launch_Finley",
-        "dest": "API.py"
+        "dest": "/API.py"
       }
     ]
   }
