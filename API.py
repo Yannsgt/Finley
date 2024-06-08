@@ -7,11 +7,17 @@ app = Flask(__name__)
 app.secret_key = 'TEST'
 
 #Suite des imports
-
+# import customtkinter
+# import mysql.connector
+# import hashlib
+# from cryptography.fernet import Fernet
+# from CTkListbox import *
 import subprocess
 import json
 import os
 from difflib import get_close_matches
+# import tkinter as tk 
+# from tkinter import Tk, Frame, Scrollbar, Text, Entry, Button, END, Toplevel, Label
 import unicodedata
 from spellchecker import SpellChecker
 import smtplib
@@ -19,8 +25,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import time
 import re
+# from tkinter import messagebox
 from datetime import datetime
-
+# from tkinter import ttk
+# from tkinter import Canvas, Entry, Button, Text, Frame
+# import tkinter as tk
 
 
 
@@ -205,31 +214,32 @@ def add_question_to_database(database_path, new_question_text):
     with open(database_path, 'w') as file:
         json.dump(json_data, file, indent=2)
 
-def add_answer_to_database(answer, file_path):
+def add_answer_to_database(question, answer, file_path):
     # Read the existing data from the JSON file
     try:
         with open(file_path, 'r') as file:
             data = json.load(file)
     except FileNotFoundError:
         # If the file doesn't exist, create a new structure
-        data = {"answers": []}
+        data = {"qa_pairs": []}
     except json.JSONDecodeError:
         # If the file is empty or corrupted, create a new structure
-        data = {"answers": []}
+        data = {"qa_pairs": []}
 
-    # Check if the answer already exists in the list
-    for existing_answer in data['answers']:
-        if existing_answer['text'] == answer:
-            return f'Answer already exists: {answer}'
+    # Check if the question-answer pair already exists in the list
+    for existing_pair in data['qa_pairs']:
+        if existing_pair['question'] == question and existing_pair['answer'] == answer:
+            return f'Question-Answer pair already exists: {question} - {answer}'
 
-    # Add the new answer to the list
-    data['answers'].append({"text": answer})
+    # Add the new question-answer pair to the list
+    data['qa_pairs'].append({"question": question, "answer": answer})
     
     # Write the updated data back to the JSON file
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
     
-    return f'Answer added: {answer}'
+    return f'Question-Answer pair added: {question} - {answer}'
+
 
 #Gestion des BDD pour les questions et réponses problématiques______________________________________________________________________ END
 
@@ -506,7 +516,7 @@ def quitNoted():
 
 @app.route('/NoteBad',methods=['POST'])
 def Bad():
-    note = request.json.get('note')
+    note = request.json.get('rep')
     print("note= ",note,"\n")
     add_answer_to_database(note,r"answer_base.json")
     return 'Bad note received: ' + note
@@ -528,6 +538,9 @@ def Good():
 def quit():
     return render_template('Satisfaction.html')
 
+@app.route('/QuitNoContact',methods=['POST','GET'])
+def QuitNoContact():
+    return render_template('quit.html')
 #ROUTES:_____________________________________________ END
 
 
